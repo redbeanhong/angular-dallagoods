@@ -1,0 +1,19 @@
+<div class="d-flex flex-wrap" style="min-height: 100vh; padding-top: 76px">
+  <app-customer-navbar class="w-100 fixed-top"></app-customer-navbar>
+
+  <app-alert-message></app-alert-message>
+
+  <app-banner></app-banner>
+
+  <div class="container-fluid border-bottom border-top mb-4">
+    <app-info-bar></app-info-bar>
+  </div>
+
+  <div class="w-100">
+    <main role="main">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+
+  <app-footer-bar class="w-100"></app-footer-bar>
+</div>
