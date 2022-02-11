@@ -1,0 +1,73 @@
+.img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &.img--small {
+    min-height: 150px;
+    @include media-breakpoint-up(md) {
+      min-height: 100px;
+    }
+  }
+
+  &.img--mid {
+    min-height: 250px;
+    @include media-breakpoint-up(md) {
+      min-height: 200px;
+    }
+  }
+
+  &.img--big {
+    min-height: 350px;
+    @include media-breakpoint-up(md) {
+      min-height: 300px;
+    }
+  }
+}
+
+.image--photo1 {
+  background-image: url('../../img/photo1.jpg');
+}
+.image--photo2 {
+  background-image: url('../../img/photo2.jpg');
+}
+.image--photo3 {
+  background-image: url('../../img/photo3.jpg');
+}
+.image--photo4 {
+  background-image: url('../../img/photo4.jpg');
+}
+.image--photo5 {
+  background-image: url('../../img/photo5.jpg');
+}
+
+.image--product1 {
+  background-image: url('../../img/product1.jpg');
+}
+.image--product2 {
+  background-image: url('../../img/product2.jpg');
+}
+.image--product3 {
+  background-image: url('../../img/product3.jpg');
+}
+.image--product4 {
+  background-image: url('../../img/product4.jpg');
+}
+.image--product5 {
+  background-image: url('../../img/product5.jpg');
+}
+.image--about1 {
+  background-image: url('../../img/about.jpg');
+}
+.image--about2 {
+  background-image: url('../../img/about2.jpg');
+  min-height: 300px;
+}
+.image--logo {
+  background-image: url('../../img/logo.jpg');
+  width: 50px;
+  height: 50px;
+}
+.image--story {
+  background-image: url('../../img/product5.jpg');
+}

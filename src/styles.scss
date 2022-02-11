@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/functions';
+@import './assets/scss/helpers/_variables';
+@import '~bootstrap/scss/bootstrap';
+@import './assets/scss/helpers/_slick';
+@import './assets/scss/helpers/_slick-theme';
+// 自訂義
+@import './assets/scss/helpers/_global';
+@import './assets/scss/helpers/_navbar';
+@import './assets/scss/helpers/_img';
+@import './assets/scss/helpers/_icon';
+@import './assets/scss/helpers/_input';
+@import './assets/scss/helpers/_dropdownMessage';
+@import './assets/scss/helpers/_slidebar';
+@import './assets/scss/helpers/_login';
+@import './assets/scss/helpers/_modal';
+@import './assets/scss/helpers/_coupon';
+@import './assets/scss/helpers/_infobar';
+@import './assets/scss/helpers/_table';
