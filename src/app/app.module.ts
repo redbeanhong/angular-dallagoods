@@ -20,6 +20,7 @@ import { CustomerCommentComponent } from './views/customer/pages/customer-commen
 import { CustomerNoticeComponent } from './views/customer/pages/customer-notice/customer-notice.component';
 import { CustomerFinishedComponent } from './views/customer/pages/customer-finished/customer-finished.component';
 import { CustomerHomeComponent } from './views/customer/pages/customer-home/customer-home.component';
+import { NavItemComponent } from './components/nav-item/nav-item.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { CustomerHomeComponent } from './views/customer/pages/customer-home/cust
     CustomerNoticeComponent,
     CustomerFinishedComponent,
     CustomerHomeComponent,
+    NavItemComponent,
   ],
   imports: [
     BrowserModule,

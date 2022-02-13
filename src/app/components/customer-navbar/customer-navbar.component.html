@@ -1,1 +1,28 @@
-<p>customer-navbar works!</p>
+<nav class="navbar navbar-expand-lg navbar-primary align-items-center bg-white">
+  <h1 class="h1--disappear">
+    <a class="navbar-brand order-1 mr-0 d-block img image--logo" routerLink="/"
+      >DallaGoods</a
+    >
+  </h1>
+
+  <button
+    class="navbar-toggler order-3 order-lg-2 ml-3"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarTogger"
+    aria-controls="navbarTogger"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse order-4 order-lg-3" id="navbarTogger">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav--line align-items-start">
+      <app-nav-item
+        *ngFor="let navItem of navItems"
+        [navItem]="navItem"
+      ></app-nav-item>
+    </ul>
+  </div>
+</nav>

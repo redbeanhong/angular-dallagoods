@@ -1,0 +1,9 @@
+<li class="nav-item px-2">
+  <!-- @click="navClose" -->
+  <a [routerLink]="navItem.path" class="nav-link">
+    <div class="d-flex align-items-center">
+      <i class="icon--mid mr-3" [class]="navItem.icon"></i>
+      <p class="mb-0">{{ navItem.title }}</p>
+    </div>
+  </a>
+</li>

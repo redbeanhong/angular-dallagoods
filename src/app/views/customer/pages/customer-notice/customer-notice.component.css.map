@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "customer-notice.component.scss"
+    ],
+    "names": [],
+    "file": "customer-notice.component.css"
+}

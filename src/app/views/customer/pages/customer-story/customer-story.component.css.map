@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "customer-story.component.scss"
+    ],
+    "names": [],
+    "file": "customer-story.component.css"
+}
